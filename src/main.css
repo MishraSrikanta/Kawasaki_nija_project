@@ -282,7 +282,7 @@ nav.header .a:hover ~ .cursor {
 
     -moz-user-select: none;
 	-webkit-user-select: none;
-	-ms-user-select: none;
+	-ms-user-select: none; 
 	user-select: none;
 	position: relative;
 	z-index: 1;
