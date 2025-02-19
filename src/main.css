@@ -286,7 +286,7 @@ nav.header .a:hover ~ .cursor {
 	user-select: none;
 	position: relative;
 	z-index: 1;
-    background: linear-gradient(0deg, rgba(5,5,5,1) 20%, rgba(5,5,5,0) 50%);
+    background: linear-gradient(0deg, rgb(52, 22, 22) 20%, rgba(5,5,5,0) 50%);
 
 }
 
@@ -467,6 +467,31 @@ nav.header .a:hover ~ .cursor {
     text-decoration: none;
     pointer-events: auto;
     color: antiquewhite;
+}
+
+.fourth{
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.fourth>h1{
+    font-size: 8vw;
+    font-weight: 100;
+    letter-spacing: -6px;
+    color:whitesmoke;
+    margin: 80px 0;
+    padding: 0;
+    text-align: center;
 }
 
 @media only screen and (max-width: 660px) {
